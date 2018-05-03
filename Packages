@@ -3,12 +3,12 @@ Name: autolead
 Version: 7.2.3
 Architecture: iphoneos-arm
 Description: KidsAuto for IOS Model 9.2.1 - 10.2.1
-Maintainer: KidsAuto <kidsauto@gmail.com>
+Maintainer: KidsAuto <kidsauto723@gmail.com>
 Author: CuongTran <kidsauto723@gmail.com>
 Sponsor: GitHub.com <github.com>
 Section: System
-Filename: ./Debs/autolead723.deb
-Size: 243002
-MD5sum: a53183818e8af5aeb1938eb690d897bc
+Filename: ./Debs/autolead.deb
+Size: 243058
+MD5sum: 7E6C04BB64733B2B38C2131C2B1229AE
 Depends: com.conradkramer.open,sqlite3,kr.iolate.simulatetouch,com.autopear.installipa,zip,jp.ashikase.mousesupport,sudo,ch.ringwald.hidsupport,com.rbt.useragentchanger,unzip,ws.hbang.repower,veency,rsync,jetslammed,socat
 Conflicts: vn.gsm.locationfaker8,com.yourepo.dviet92.xcon,vn.gsm.xcon,com.n00neimp0rtant.xcon,com.yourepo.cml.locationfakerios89,com.yourepo.cml.xcon,com.yourepo.cml.hookkeyboard,com.yourepo.cml.hookkeyboardver2
