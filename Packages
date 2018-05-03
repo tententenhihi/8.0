@@ -5,6 +5,10 @@ Architecture: iphoneos-arm
 Maintainer: KidsAuto <kidsauto@gmail.com>
 Depends: com.conradkramer.open,sqlite3,kr.iolate.simulatetouch,com.autopear.installipa,zip,jp.ashikase.mousesupport,sudo,ch.ringwald.hidsupport,com.rbt.useragentchanger,unzip,ws.hbang.repower,veency,rsync,jetslammed,socat
 Filename: /autolead_7.2.3.deb
+Size: <deb in bytes>
+MD5sum: <md5 hash of deb>
+SHA1: <sha1 hash of deb>
+SHA256: <sha256 of deb>
 Section: system
 Description: KidsAuto for IOS Model 9.2.1 - 10.2.1
 Author: CuongTran <kidsauto723@gmail.com>
