@@ -1,0 +1,10 @@
+Package: com.kidsauto.kidsauto.autolead
+Name: autolead
+Version: 7.2.2
+Architecture: iphoneos-arm
+Description: Auto Lead iOS 8 - 10.2 .....................................
+Author: TranCuong <kidsauto722@gmail.com>
+Section: System
+Depends: com.conradkramer.open,sqlite3,kr.iolate.simulatetouch,com.autopear.installipa,zip,jp.ashikase.mousesupport,sudo,ch.ringwald.hidsupport,com.rbt.useragentchanger,unzip,ws.hbang.repower,veency,rsync,com.yourepo.kidsauto.xcon,jetslammed,socat
+Conflicts: vn.gsm.locationfaker8,com.yourepo.dviet92.xcon,vn.gsm.xcon,com.n00neimp0rtant.xcon,com.yourepo.cml.locationfakerios89,com.yourepo.cml.xcon,com.yourepo.cml.hookkeyboard,com.yourepo.cml.hookkeyboardver2
+

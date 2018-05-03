@@ -1,13 +1,14 @@
-Package: com.kidsauto.kidsauto
+Package: com.kidsauto.kidsauto.autolead
 Name: autolead
 Version: 7.2.3
 Architecture: iphoneos-arm
 Maintainer: KidsAuto <kidsauto@gmail.com>
 Depends: com.conradkramer.open,sqlite3,kr.iolate.simulatetouch,com.autopear.installipa,zip,jp.ashikase.mousesupport,sudo,ch.ringwald.hidsupport,com.rbt.useragentchanger,unzip,ws.hbang.repower,veency,rsync,jetslammed,socat
-Filename: /kidsauto.deb
-MD5sum: 3F29AA372D7F017997B3565BCAEE9F77
-SHA1: 4974BC1727CAB70B68174601C8A103D5C263CD25
-SHA256: 432B474822C1FB0CEB0E42A21DFAFB920AC935A9CA7ADED830C5593738168ED3
+Filename: /Kidsauto.deb
+Size: 243018
+MD5sum: 22B4004A740A09D98A7D943B085A5819
+SHA1: EA074AA646F78E7655964EE918640EDCEA6F059E
+SHA256: 32D130349B1C2B8BD612D203B19F5770B5D9ECBAD88E306C823B3B07CBC55187
 Section: system
 Description: KidsAuto for IOS Model 9.2.1 - 10.2.1
 Author: CuongTran <kidsauto723@gmail.com>
