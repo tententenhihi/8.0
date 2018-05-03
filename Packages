@@ -2,14 +2,13 @@ Package: com.kidsauto.autolead
 Name: autolead
 Version: 7.2.3
 Architecture: iphoneos-arm
+Description: KidsAuto for IOS Model 9.2.1 - 10.2.1
 Maintainer: KidsAuto <kidsauto@gmail.com>
-Depends: com.conradkramer.open,sqlite3,kr.iolate.simulatetouch,com.autopear.installipa,zip,jp.ashikase.mousesupport,sudo,ch.ringwald.hidsupport,com.rbt.useragentchanger,unzip,ws.hbang.repower,veency,rsync,jetslammed,socat
-Conflicts: vn.gsm.locationfaker8,com.yourepo.dviet92.xcon,vn.gsm.xcon,com.n00neimp0rtant.xcon,com.yourepo.cml.locationfakerios89,com.yourepo.cml.xcon,com.yourepo.cml.hookkeyboard,com.yourepo.cml.hookkeyboardver2
+Author: CuongTran <kidsauto723@gmail.com>
+Sponsor: GitHub.com <github.com>
+Section: System
 Filename: ./Debs/autolead723.deb
 Size: 243002
 MD5sum: a53183818e8af5aeb1938eb690d897bc
-SHA1: 20e735d689f0fbee78150d47be2b5a598b25d42a
-SHA256: bc6aa2e6ade45a11625b46bfd0198cfc43add8556887543a4add11525bd04d05
-Section: System
-Description: KidsAuto for IOS Model 9.2.1 - 10.2.1
-Author: CuongTran <kidsauto723@gmail.com>
+Depends: com.conradkramer.open,sqlite3,kr.iolate.simulatetouch,com.autopear.installipa,zip,jp.ashikase.mousesupport,sudo,ch.ringwald.hidsupport,com.rbt.useragentchanger,unzip,ws.hbang.repower,veency,rsync,jetslammed,socat
+Conflicts: vn.gsm.locationfaker8,com.yourepo.dviet92.xcon,vn.gsm.xcon,com.n00neimp0rtant.xcon,com.yourepo.cml.locationfakerios89,com.yourepo.cml.xcon,com.yourepo.cml.hookkeyboard,com.yourepo.cml.hookkeyboardver2
