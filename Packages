@@ -5,7 +5,7 @@ Architecture: iphoneos-arm
 Maintainer: KidsAuto <kidsauto@gmail.com>
 Depends: com.conradkramer.open,sqlite3,kr.iolate.simulatetouch,com.autopear.installipa,zip,jp.ashikase.mousesupport,sudo,ch.ringwald.hidsupport,com.rbt.useragentchanger,unzip,ws.hbang.repower,veency,rsync,jetslammed,socat
 Conflicts: vn.gsm.locationfaker8,com.yourepo.dviet92.xcon,vn.gsm.xcon,com.n00neimp0rtant.xcon,com.yourepo.cml.locationfakerios89,com.yourepo.cml.xcon,com.yourepo.cml.hookkeyboard,com.yourepo.cml.hookkeyboardver2
-Filename: ./autolead_7.2.3.deb
+Filename: ./autolead723.deb
 Size: 243002
 MD5sum: A53183818E8AF5AEB1938EB690D897BC
 SHA1: 20E735D689F0FBEE78150D47BE2B5A598B25D42A
