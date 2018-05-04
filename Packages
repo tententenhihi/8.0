@@ -10,7 +10,7 @@ Section: System
 Filename: ./Debs/autolead.deb
 Size: 243058
 MD5sum: 7e6c04bb64733b2b38c2131c2b1229ae
-Depends: com.conradkramer.open,sqlite3,kr.iolate.simulatetouch,com.autopear.installipa,zip,jp.ashikase.mousesupport,sudo,ch.ringwald.hidsupport,com.rbt.useragentchanger,unzip,ws.hbang.repower,veency,rsync,jetslammed,socat,com.kidsauto.icontool,com.kidsauto.locationfaker8910,com.kidsauto.xcon,com.kidsauto.locationfaker8910
+Depends: com.conradkramer.open,sqlite3,kr.iolate.simulatetouch,com.autopear.installipa,zip,jp.ashikase.mousesupport,sudo,ch.ringwald.hidsupport,com.rbt.useragentchanger,unzip,ws.hbang.repower,veency,rsync,jetslammed,socat,com.kidsauto.icontool,com.kidsauto.locationfaker8910,com.kidsauto.xcon,com.kidsauto.hookkeyboard
 Conflicts: vn.gsm.locationfaker8,com.yourepo.dviet92.xcon,vn.gsm.xcon,com.n00neimp0rtant.xcon,com.yourepo.cml.locationfakerios89,com.yourepo.cml.xcon,com.yourepo.cml.hookkeyboard,com.yourepo.cml.hookkeyboardver2
 
 Package: com.kidsauto.icontool
