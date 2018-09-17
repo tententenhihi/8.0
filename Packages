@@ -1,73 +1,73 @@
-Package: com.kidsauto.autolead
+Package: com.kidsauto73.autolead
 Name: autolead
-Version: 7.2.3
+Version: 7.3
 Architecture: iphoneos-arm
-Description: KidsAuto for IOS Model 9.2.1 - 10.2.1
-Maintainer: KidsAuto <kidsauto723@gmail.com>
-Author: CuongTran <kidsauto723@gmail.com>
+Description: KidsAuto for IOS Model 9.2.1 - 10.3.3
+Maintainer: KidsAuto <kidsauto73@gmail.com>
+Author: CuongTran <kidsauto73@gmail.com>
 Sponsor: GitHub.com <github.com>
 Section: System
-Filename: ./Debs/autolead.deb
-Size: 243058
-MD5sum: 7e6c04bb64733b2b38c2131c2b1229ae
-Depends: com.conradkramer.open,sqlite3,kr.iolate.simulatetouch,com.autopear.installipa,zip,jp.ashikase.mousesupport,sudo,ch.ringwald.hidsupport,com.rbt.useragentchanger,unzip,ws.hbang.repower,veency,rsync,jetslammed,socat,com.kidsauto.icontool,com.kidsauto.locationfaker8910,com.kidsauto.xcon,com.kidsauto.hookkeyboard
+Filename: ./Debs/autolead73.deb
+Size: 243048
+MD5sum: 68beb347168dfdbb1df23e8805c49aae
+Depends: com.conradkramer.open,sqlite3,kr.iolate.simulatetouch,com.autopear.installipa,zip,jp.ashikase.mousesupport,sudo,ch.ringwald.hidsupport,com.rbt.useragentchanger,unzip,ws.hbang.repower,veency,rsync,jetslammed,socat,com.cydiageek.coysim,com.kidsauto73.hookkeyboard,com.kidsauto73.icontool,com.kidsauto73.locationfaker8910
 Conflicts: vn.gsm.locationfaker8,com.yourepo.dviet92.xcon,vn.gsm.xcon,com.n00neimp0rtant.xcon,com.yourepo.cml.locationfakerios89,com.yourepo.cml.xcon,com.yourepo.cml.hookkeyboard,com.yourepo.cml.hookkeyboardver2
 
-Package: com.kidsauto.icontool
+Package: com.kidsauto73.icontool
 Name: Icon Tool
 Version: 1.9-5k
 Architecture: iphoneos-arm
 Description: App tools menu from jiggle mode
-Maintainer: KidsAuto <kidsauto723@gmail.com>
-Author: CuongTran <kidsauto723@gmail.com>
+Maintainer: KidsAuto <kidsauto73@gmail.com>
+Author: CuongTran <kidsauto73@gmail.com>
 Sponsor: GitHub.com <github.com>
 Section: Tweaks
-Filename: ./Debs/icontool.deb
-Size: 384380
-MD5sum: 556ac25a2bc2055d919cfee7a730d91c
+Filename: ./Debs/icontool_1.9-5k.deb
+Size: 384386
+MD5sum: 8d09747284a455d359151f69c8ec9390
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 5.0), preferenceloader (>= 2.2.2)
 Conflicts: com.rpetrich.iconrenamer,vn.gsm.icontool
 
-Package: com.kidsauto.hookkeyboard
+Package: com.kidsauto73.hookkeyboard
 Name: hookkeyboard
-Version: 7.2.3
+Version: 7.3
 Architecture: iphoneos-arm
-Description: Tweak for AutoLead  iOS 9.2.1 --- 10.2.1
-Maintainer: KidsAuto <kidsauto723@gmail.com>
-Author: CuongTran <kidsauto723@gmail.com>
+Description: Tweak for AutoLead  iOS 9.2.1 --- 10.3.3
+Maintainer: KidsAuto <kidsauto73@gmail.com>
+Author: CuongTran <kidsauto73@gmail.com>
 Sponsor: GitHub.com <github.com>
 Section: Tweaks
 Filename: ./Debs/hookkeyboard.deb
-Size: 331786
-MD5sum: c54de4e699cce6d761e99325da80eafc
+Size: 331784
+MD5sum: 41833319de2ce7f30d268899ee598bff
 Depends: mobilesubstrate
 
-Package: com.kidsauto.locationfaker8910
+Package: com.kidsauto73.locationfaker8910
 Name: LocationFaker(8,9,10)
 Version: 2.0k
 Architecture: iphoneos-arm
 Description: Change your location using a map Cracked
-Maintainer: KidsAuto <kidsauto723@gmail.com>
-Author: Cunstuck <kidsauto723@gmail.com>
+Maintainer: KidsAuto <kidsauto73@gmail.com>
+Author: Cunstuck <kidsauto73@gmail.com>
 Sponsor: GitHub.com <github.com>
 Section: Tweaks
-Filename: ./Debs/locationfaker.deb
-Size: 551076
-MD5sum: 21b042583409a642ba844966dcabead3
+Filename: ./Debs/locationfaker8910.deb
+Size: 551074
+MD5sum: 653bc05e26c0e48c74cdb119835adf0f
 Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000)
 Conflicts: org.thebigboss.locationchangerx
 
-Package: com.kidsauto.xcon
-Name: xCon
-Version: 42-beta1
+Package: com.kidsauto73.wTabwData
+Name: wTabwData
+Version: 0.1
 Architecture: iphoneos-arm
-Description: bypass anti-jailbreak protection
-Maintainer: KidsAuto <kidsauto723@gmail.com>
-Author: Lunatik <nofearlose@gmail.com>
+Description: An awesome MobileSubstrate tweak for KidsAuto!
+Maintainer: KidsAuto <kidsauto73@gmail.com>
+Author: kidsauto.github.io/73
 Sponsor: GitHub.com <github.com>
 Section: Tweaks
-Filename: ./Debs/xcon.deb
-Size: 141912
-MD5sum: 5254f5b404d9a5e637208605bf129b11
+Filename: ./Debs/wTabwData.deb
+Size: 36120
+MD5sum: 0ef273c84db2b06102aa559fe02db699
 Depends: mobilesubstrate
-Conflicts: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner,com.yourepo.cml.xcon,com.yourepo.viet.xcon
+Conflicts: com.duccom01.pluginatl_0.0.1-50
