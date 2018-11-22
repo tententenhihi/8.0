@@ -7,13 +7,13 @@ Maintainer: KidsAuto <kidsauto73@gmail.com>
 Author: CuongTran <kidsauto73@gmail.com>
 Sponsor: GitHub.com <github.com>
 Section: System
-Filename: ./Debs/KidsAuto7.3.deb
-Size: 243066
-MD5sum: 74cc8f8499896849dc14559227d8b09f
-Depends: com.conradkramer.open,sqlite3,kr.iolate.simulatetouch,com.autopear.installipa,zip,jp.ashikase.mousesupport,sudo,ch.ringwald.hidsupport,com.rbt.useragentchanger,unzip,ws.hbang.repower,veency,rsync,jetslammed,socat,com.cydiageek.coysim,com.kidsauto73.SSLKillSwitch2,com.kidsauto73.hookkeyboard,com.kidsauto73.icontool,com.kidsauto73.locationfaker8910
+Filename: ./Debs/KidsAuto7_3.deb
+Size: 243068
+MD5sum: 1fdcca874e5c2ce0004cf7f0d040f8fa
+Depends: com.conradkramer.open,sqlite3,kr.iolate.simulatetouch,com.autopear.installipa,zip,jp.ashikase.mousesupport,sudo,ch.ringwald.hidsupport,com.rbt.useragentchanger,unzip,ws.hbang.repower,veency,rsync,jetslammed,socat,com.cydiageek.coysim,com.kidsauto73.SSLKillSwitch2,com.kidsauto73.hookkeyboard73,com.kidsauto73.icontool73,com.kidsauto73.locationfaker73
 Conflicts: vn.gsm.locationfaker8,com.yourepo.dviet92.xcon,vn.gsm.xcon,com.n00neimp0rtant.xcon,com.yourepo.cml.locationfakerios89,com.yourepo.cml.xcon,com.yourepo.cml.hookkeyboard,com.yourepo.cml.hookkeyboardver2
 
-Package: com.kidsauto73.icontool
+Package: com.kidsauto73.icontool73
 Name: Icon Tool
 Version: 1.9-5k
 Architecture: iphoneos-arm
@@ -22,13 +22,13 @@ Maintainer: KidsAuto <kidsauto73@gmail.com>
 Author: CuongTran <kidsauto73@gmail.com>
 Sponsor: GitHub.com <github.com>
 Section: Tweaks
-Filename: ./Debs/icontool_1.9-5k.deb
-Size: 384386
-MD5sum: 8d09747284a455d359151f69c8ec9390
+Filename: ./Debs/icontool73.deb
+Size: 384382
+MD5sum: ce1d95f730478cc7229c42dbae9ca69a
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 5.0), preferenceloader (>= 2.2.2)
 Conflicts: com.rpetrich.iconrenamer,vn.gsm.icontool
 
-Package: com.kidsauto73.hookkeyboard
+Package: com.kidsauto73.hookkeyboard73
 Name: hookkeyboard
 Version: 7.3
 Architecture: iphoneos-arm
@@ -37,12 +37,12 @@ Maintainer: KidsAuto <kidsauto73@gmail.com>
 Author: CuongTran <kidsauto73@gmail.com>
 Sponsor: GitHub.com <github.com>
 Section: Tweaks
-Filename: ./Debs/hookkeyboard.deb
-Size: 331784
-MD5sum: 41833319de2ce7f30d268899ee598bff
+Filename: ./Debs/hookkeyboard73.deb
+Size: 331786
+MD5sum: 22bc4e2a7797d8b203260774e384f22e
 Depends: mobilesubstrate
 
-Package: com.kidsauto73.locationfaker8910
+Package: com.kidsauto73.locationfaker73
 Name: LocationFaker(8,9,10)
 Version: 2.0k
 Architecture: iphoneos-arm
@@ -51,9 +51,9 @@ Maintainer: KidsAuto <kidsauto73@gmail.com>
 Author: Cunstuck <kidsauto73@gmail.com>
 Sponsor: GitHub.com <github.com>
 Section: Tweaks
-Filename: ./Debs/locationfaker8910.deb
-Size: 551074
-MD5sum: 653bc05e26c0e48c74cdb119835adf0f
+Filename: ./Debs/locationfaker73.deb
+Size: 551072
+MD5sum: 33682e76d1794634f8451366b6311c48
 Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000)
 Conflicts: org.thebigboss.locationchangerx
 
