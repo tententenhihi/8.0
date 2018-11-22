@@ -1,1 +1,1 @@
-bash -c "cd D:/IOS/73; ./update.sh;"
+bash -c "cd D:/IOS/7.3; ./update.sh;"

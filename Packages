@@ -1,4 +1,4 @@
-Package: com.kidsauto73.autolead
+Package: com.kidsauto73.autolead73
 Name: autolead
 Version: 7.3
 Architecture: iphoneos-arm
@@ -8,9 +8,9 @@ Author: CuongTran <kidsauto73@gmail.com>
 Sponsor: GitHub.com <github.com>
 Section: System
 Filename: ./Debs/autolead73.deb
-Size: 243048
-MD5sum: 68beb347168dfdbb1df23e8805c49aae
-Depends: com.conradkramer.open,sqlite3,kr.iolate.simulatetouch,com.autopear.installipa,zip,jp.ashikase.mousesupport,sudo,ch.ringwald.hidsupport,com.rbt.useragentchanger,unzip,ws.hbang.repower,veency,rsync,jetslammed,socat,com.cydiageek.coysim,com.kidsauto73.hookkeyboard,com.kidsauto73.icontool,com.kidsauto73.locationfaker8910
+Size: 243066
+MD5sum: 74cc8f8499896849dc14559227d8b09f
+Depends: com.conradkramer.open,sqlite3,kr.iolate.simulatetouch,com.autopear.installipa,zip,jp.ashikase.mousesupport,sudo,ch.ringwald.hidsupport,com.rbt.useragentchanger,unzip,ws.hbang.repower,veency,rsync,jetslammed,socat,com.cydiageek.coysim,com.kidsauto73.SSLKillSwitch2,com.kidsauto73.hookkeyboard,com.kidsauto73.icontool,com.kidsauto73.locationfaker8910
 Conflicts: vn.gsm.locationfaker8,com.yourepo.dviet92.xcon,vn.gsm.xcon,com.n00neimp0rtant.xcon,com.yourepo.cml.locationfakerios89,com.yourepo.cml.xcon,com.yourepo.cml.hookkeyboard,com.yourepo.cml.hookkeyboardver2
 
 Package: com.kidsauto73.icontool
@@ -57,16 +57,74 @@ MD5sum: 653bc05e26c0e48c74cdb119835adf0f
 Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000)
 Conflicts: org.thebigboss.locationchangerx
 
-Package: com.kidsauto73.wTabwData
-Name: wTabwData
-Version: 0.2.5
+Package: com.kidsauto73.wTabwData73
+Name: wTabwData73
+Version: 0.0.2-4
 Architecture: iphoneos-arm
 Description: An awesome MobileSubstrate tweak for KidsAuto!
+Maintainer: kidsauto.github.io/7.3
+Author: kidsauto.github.io/7.3
+Sponsor: GitHub.com <github.com>
+Section: Tweaks
+Filename: ./Debs/wTabwData7_3.deb
+Size: 41352
+MD5sum: ede15504610d25e5b3efe09c8874990d
+Depends: mobilesubstrate
+
+Package: com.kidsauto73.SSLKillSwitch2
+Name: SSL Kill Switch 2
+Version: 0.11-1
+Architecture: iphoneos-arm
+Description: ByPass SSL certificate - within iOS 9.2.1-10.3.3 KidsAuto!
 Maintainer: KidsAuto <kidsauto73@gmail.com>
 Author: kidsauto.github.io/73
 Sponsor: GitHub.com <github.com>
 Section: Tweaks
-Filename: ./Debs/wTabwData73.deb
-Size: 39040
-MD5sum: 2053f9328603571ac148498339b31ca3
+Filename: ./Debs/SSLKillSwitch2_0.deb
+Size: 10102
+MD5sum: 262ce053dee046e2ab7067257dd81203
+Depends: mobilesubstrate, preferenceloader
+
+Package: com.kidsauto73.xcon4
+Name: xCon4
+Version: 42~beta4
+Architecture: iphoneos-arm
+Description: bypass anti-jailbreak protection
+Depiction: https://repo.xarold.com/pack/xcon
+Author: Lunatik
+Section: TwProtectJB
+Maintainer: Xarold <contact@xarold.com>
+Filename: ./Debs/xCon4.deb
+Size: 136620
+MD5sum: aaf4ca890f60005138785ffec6b148df
 Depends: mobilesubstrate
+Conflicts: co.xcon, co.xcon.xcon, com.repo.xarold.com.xcon, com.yourcompany.dtvrunner
+
+Package: com.kidsauto73.libertylite1
+Name: Liberty Lite 1
+Version: 0.2.10
+Architecture: iphoneos-arm
+Maintainer: HackYouriPhone <repo@hackyouriphone.org>
+Author: Ryley Angus <repo@hackyouriphone.org>
+Depiction: hackyouriphone A (lite) general purpose jailbreak detection bypass patch. Use the Liberty entry in the Settings app to block (most) apps from detecting your jailbreak. Disabling Substrate/Substitute is not supported, so certain apps (PayPal, HSBC HK) will still be problematic.
+Section: TwProtectJB
+Filename: ./Debs/Libertylite_0_2_10-1.deb
+Size: 78348
+MD5sum: a31867ad098c22967ade14c06a634f04
+Depends: mobilesubstrate, preferenceloader, applist
+Conflicts: com.ryleyangus.liberty
+
+Package: com.kidsauto73.libertylite2
+Name: Liberty Lite 2
+Version: 0.2.10
+Architecture: iphoneos-arm
+Description: A (lite) general purpose jailbreak detection bypass patch. Use the Liberty entry in the Settings app to block (most) apps from detecting your jailbreak. Disabling Substrate/Substitute is not supported, so certain apps (PayPal, HSBC HK) will still be problematic.
+Maintainer: Ryley Angus
+Author: Ryley Angus
+Section: TwProtectJB
+Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref.png
+Filename: ./Debs/Libertylite_0_2_10-2.deb
+Size: 78348
+MD5sum: 1b77abe8ff52b21bc93fd300a58fdf0a
+Depends: mobilesubstrate, preferenceloader, applist
+Conflicts: com.ryleyangus.liberty
