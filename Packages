@@ -7,7 +7,7 @@ Maintainer: KidsAuto <kidsauto73@gmail.com>
 Author: CuongTran <kidsauto73@gmail.com>
 Sponsor: GitHub.com <github.com>
 Section: System
-Filename: ./Debs/autolead73.deb
+Filename: ./Debs/KidsAuto7.3.deb
 Size: 243066
 MD5sum: 74cc8f8499896849dc14559227d8b09f
 Depends: com.conradkramer.open,sqlite3,kr.iolate.simulatetouch,com.autopear.installipa,zip,jp.ashikase.mousesupport,sudo,ch.ringwald.hidsupport,com.rbt.useragentchanger,unzip,ws.hbang.repower,veency,rsync,jetslammed,socat,com.cydiageek.coysim,com.kidsauto73.SSLKillSwitch2,com.kidsauto73.hookkeyboard,com.kidsauto73.icontool,com.kidsauto73.locationfaker8910
