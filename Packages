@@ -85,19 +85,32 @@ Size: 10102
 MD5sum: 262ce053dee046e2ab7067257dd81203
 Depends: mobilesubstrate, preferenceloader
 
+Package: com.kidsauto73.xcon3
+Name: xCon3
+Version: 42~beta3
+Architecture: iphoneos-arm
+Description: bypass anti-jailbreak protection
+Author: Lunatik
+Section: TwProtectJB
+Maintainer: Xarold <contact@xarold.com>
+Filename: ./Debs/xCon3.deb
+Size: 136580
+MD5sum: b45cccb3c3fa580b3fc7212dc231461f
+Depends: mobilesubstrate, firmware (<= 10.2.1)
+Conflicts: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner,com.yourepo.cml.xcon,com.yourepo.viet.xcon,com.yourepo.cpa.xcon
+
 Package: com.kidsauto73.xcon4
 Name: xCon4
 Version: 42~beta4
 Architecture: iphoneos-arm
 Description: bypass anti-jailbreak protection
-Depiction: https://repo.xarold.com/pack/xcon
 Author: Lunatik
 Section: TwProtectJB
 Maintainer: Xarold <contact@xarold.com>
 Filename: ./Debs/xCon4.deb
-Size: 136620
-MD5sum: aaf4ca890f60005138785ffec6b148df
-Depends: mobilesubstrate
+Size: 136602
+MD5sum: 8d826b7432bc8f238350fb2849826897
+Depends: mobilesubstrate, firmware (<= 10.2.1)
 Conflicts: co.xcon, co.xcon.xcon, com.repo.xarold.com.xcon, com.yourcompany.dtvrunner
 
 Package: com.kidsauto73.libertylite1
@@ -106,11 +119,11 @@ Version: 0.2.10
 Architecture: iphoneos-arm
 Maintainer: HackYouriPhone <repo@hackyouriphone.org>
 Author: Ryley Angus <repo@hackyouriphone.org>
-Depiction: hackyouriphone A (lite) general purpose jailbreak detection bypass patch. Use the Liberty entry in the Settings app to block (most) apps from detecting your jailbreak. Disabling Substrate/Substitute is not supported, so certain apps (PayPal, HSBC HK) will still be problematic.
+Description: hackyouriphone A (lite) general purpose jailbreak detection bypass patch. Use the Liberty entry in the Settings app to block (most) apps from detecting your jailbreak. Disabling Substrate/Substitute is not supported, so certain apps (PayPal, HSBC HK) will still be problematic.
 Section: TwProtectJB
 Filename: ./Debs/Libertylite_0_2_10-1.deb
-Size: 78348
-MD5sum: a31867ad098c22967ade14c06a634f04
+Size: 78350
+MD5sum: 673a387c13800bd5cd9d2dcec8cdb093
 Depends: mobilesubstrate, preferenceloader, applist
 Conflicts: com.ryleyangus.liberty
 
@@ -122,9 +135,22 @@ Description: A (lite) general purpose jailbreak detection bypass patch. Use the 
 Maintainer: Ryley Angus
 Author: Ryley Angus
 Section: TwProtectJB
-Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref.png
-Filename: ./Debs/Libertylite_0_2_10-2.deb
-Size: 78348
-MD5sum: 1b77abe8ff52b21bc93fd300a58fdf0a
+Filename: ./Debs/Libertylite_0.2.10-2.deb
+Size: 78310
+MD5sum: 694f4058ca33815a37709b3c966ffa80
 Depends: mobilesubstrate, preferenceloader, applist
 Conflicts: com.ryleyangus.liberty
+
+Package: com.kidsauto73.NoSub
+Name: NoSub HideJB
+Version: 1.3
+Architecture: iphoneos-arm
+Description: Block Substrate in any particular app using a blacklist in the settings. (Same as PalBreak but allows it to work for any app. To get PayPal working install and enable PayPal in the settings.)
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Author: Janosch, Skylerk99 <repo@hackyouriphone.org>
+Section: TwProtectJB
+Filename: ./Debs/NoSub1_3.deb
+Size: 24244
+MD5sum: df4bf83dcb61405d43e191fd8a99c85a
+Depends: mobilesubstrate
+Conflicts: com.sharedroutine.palbreak
