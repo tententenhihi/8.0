@@ -13,6 +13,21 @@ MD5sum: 1fdcca874e5c2ce0004cf7f0d040f8fa
 Depends: com.conradkramer.open,sqlite3,kr.iolate.simulatetouch,com.autopear.installipa,zip,jp.ashikase.mousesupport,sudo,ch.ringwald.hidsupport,com.rbt.useragentchanger,unzip,ws.hbang.repower,veency,rsync,jetslammed,socat,com.cydiageek.coysim,com.kidsauto73.SSLKillSwitch2,com.kidsauto73.hookkeyboard73,com.kidsauto73.icontool73,com.kidsauto73.locationfaker73
 Conflicts: vn.gsm.locationfaker8,com.yourepo.dviet92.xcon,vn.gsm.xcon,com.n00neimp0rtant.xcon,com.yourepo.cml.locationfakerios89,com.yourepo.cml.xcon,com.yourepo.cml.hookkeyboard,com.yourepo.cml.hookkeyboardver2
 
+Package: com.kidsauto73.autolead73b
+Name: autolead
+Version: 7.3-beta
+Architecture: iphoneos-arm
+Description: KidsAuto for IOS Test
+Maintainer: KidsAuto <kidsauto73@gmail.com>
+Author: CuongTran <kidsauto7.3@gmail.com>
+Sponsor: GitHub.com <github.com>
+Section: System
+Filename: ./Debs/KidsAuto7_3b.deb
+Size: 243056
+MD5sum: 91331caeb2e56907d57679df48a1e17e
+Depends: com.conradkramer.open,sqlite3,kr.iolate.simulatetouch,com.autopear.installipa,zip,jp.ashikase.mousesupport,sudo,ch.ringwald.hidsupport,com.rbt.useragentchanger,unzip,ws.hbang.repower,rsync,jetslammed,socat,com.cydiageek.coysim,com.kidsauto73.SSLKillSwitch2,com.kidsauto73.hookkeyboard73,com.kidsauto73.icontool73,com.kidsauto73.locationfaker73
+Conflicts: vn.gsm.locationfaker8,com.yourepo.dviet92.xcon,vn.gsm.xcon,com.n00neimp0rtant.xcon,com.yourepo.cml.locationfakerios89,com.yourepo.cml.xcon,com.yourepo.cml.hookkeyboard,com.yourepo.cml.hookkeyboardver2
+
 Package: com.kidsauto73.icontool73
 Name: Icon Tool
 Version: 1.9-5k
