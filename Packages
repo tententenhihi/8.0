@@ -10,7 +10,7 @@ Section: System
 Filename: ./Debs/KidsAuto7_3.deb
 Size: 243068
 MD5sum: 1fdcca874e5c2ce0004cf7f0d040f8fa
-Depends: com.conradkramer.open,sqlite3,kr.iolate.simulatetouch,com.autopear.installipa,zip,jp.ashikase.mousesupport,sudo,ch.ringwald.hidsupport,com.rbt.useragentchanger,unzip,ws.hbang.repower,veency,rsync,jetslammed,socat,com.cydiageek.coysim,com.kidsauto73.SSLKillSwitch2,com.kidsauto73.hookkeyboard73,com.kidsauto73.icontool73,com.kidsauto73.locationfaker73
+Depends: com.conradkramer.open,sqlite3,kr.iolate.simulatetouch,com.autopear.installipa,zip,jp.ashikase.mousesupport,sudo,ch.ringwald.hidsupport,com.rbt.useragentchanger,unzip,ws.hbang.repower,veency,rsync,jetslammed,socat,com.cydiageek.coysim,com.kidsauto73.SSLKillSwitch2
 Conflicts: vn.gsm.locationfaker8,com.yourepo.dviet92.xcon,vn.gsm.xcon,com.n00neimp0rtant.xcon,com.yourepo.cml.locationfakerios89,com.yourepo.cml.xcon,com.yourepo.cml.hookkeyboard,com.yourepo.cml.hookkeyboardver2
 
 Package: com.kidsauto73.autolead73b
@@ -21,12 +21,11 @@ Description: KidsAuto for IOS Test
 Maintainer: KidsAuto <kidsauto73@gmail.com>
 Author: CuongTran <kidsauto7.3@gmail.com>
 Sponsor: GitHub.com <github.com>
-Section: System
+Section: Test
 Filename: ./Debs/KidsAuto7_3b.deb
-Size: 243056
-MD5sum: 91331caeb2e56907d57679df48a1e17e
-Depends: com.conradkramer.open,sqlite3,kr.iolate.simulatetouch,com.autopear.installipa,zip,jp.ashikase.mousesupport,sudo,ch.ringwald.hidsupport,com.rbt.useragentchanger,unzip,ws.hbang.repower,rsync,jetslammed,socat,com.cydiageek.coysim,com.kidsauto73.SSLKillSwitch2,com.kidsauto73.hookkeyboard73,com.kidsauto73.icontool73,com.kidsauto73.locationfaker73
-Conflicts: vn.gsm.locationfaker8,com.yourepo.dviet92.xcon,vn.gsm.xcon,com.n00neimp0rtant.xcon,com.yourepo.cml.locationfakerios89,com.yourepo.cml.xcon,com.yourepo.cml.hookkeyboard,com.yourepo.cml.hookkeyboardver2
+Size: 242984
+MD5sum: 9016026ddc1540630228e6b59fd09392
+Depends: com.conradkramer.open,sqlite3,kr.iolate.simulatetouch,com.autopear.installipa,zip,jp.ashikase.mousesupport,sudo,ch.ringwald.hidsupport,com.rbt.useragentchanger,unzip,ws.hbang.repower,rsync,jetslammed,socat,com.cydiageek.coysim,com.kidsauto73.SSLKillSwitch2,com.kidsauto73.wTabwData73,com.kidsauto73.icontool197,com.kidsauto73.locationchangerx
 
 Package: com.kidsauto73.icontool73
 Name: Icon Tool
@@ -42,6 +41,20 @@ Size: 384382
 MD5sum: ce1d95f730478cc7229c42dbae9ca69a
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 5.0), preferenceloader (>= 2.2.2)
 Conflicts: com.rpetrich.iconrenamer,vn.gsm.icontool
+
+Package: com.kidsauto73.icontool197
+Name: Icon Tool
+Version: 1.9-7
+Architecture: iphoneos-arm
+Author: ioshack <repo@hackyouriphone.org>
+Description: app tools menu from jiggle mode
+Maintainer: HackYouriPhone <repo@hackyouriphone.org>
+Section: Test
+Filename: ./Debs/icontool_1.9-7.deb
+Size: 492790
+MD5sum: c8e7f57809513551f6453e23c0b2dad8
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 5.0), preferenceloader (>= 2.2.2), com.ericasadun.utilities
+Conflicts: com.rpetrich.iconrenamer
 
 Package: com.kidsauto73.hookkeyboard73
 Name: hookkeyboard
@@ -70,6 +83,20 @@ Filename: ./Debs/locationfaker73.deb
 Size: 551072
 MD5sum: 33682e76d1794634f8451366b6311c48
 Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: org.thebigboss.locationchangerx
+
+Package: com.kidsauto73.locationchangerx
+Name: LocationFaker(9,10,11)
+Version: 2.2
+Architecture: iphoneos-arm
+Author: Cunstuck <repo@hackyouriphone.org>
+Description: change your location using a map
+Maintainer: HackYouriPhone <repo@hackyouriphone.org>
+Section: Test
+Filename: ./Debs/locationfaker911.deb
+Size: 636606
+MD5sum: 19711c256266a028509bed00b58d20a7
+Depends: firmware, mobilesubstrate
 Conflicts: org.thebigboss.locationchangerx
 
 Package: com.kidsauto73.wTabwData73
@@ -169,3 +196,16 @@ Size: 24244
 MD5sum: df4bf83dcb61405d43e191fd8a99c85a
 Depends: mobilesubstrate
 Conflicts: com.sharedroutine.palbreak
+
+Package: com.kidsauto73.jailprotect
+Name: JailProtect
+Version: 0.0~beta4a
+Architecture: iphoneos-arm
+Author: julioverne <repo@hackyouriphone.org>
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Description: No Substrate Mode Alternative
+Section: TwProtectJB
+Filename: ./Debs/jailprotect.deb
+Size: 53080
+MD5sum: 398089f481dec27e040027c794d36cf7
+Depends: mobilesubstrate, preferenceloader
