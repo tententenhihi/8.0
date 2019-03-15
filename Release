@@ -1,12 +1,12 @@
-Origin: KidsAuto IOS Repo 7.3
-Label: KidsAuto IOS Repo 7.3
+Origin: KidsAuto IOS Repo 8.0
+Label: KidsAuto IOS Repo 8.0
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: Test KidsAuto for IOS Model 9.2.1 - 10.3.3
+Description: KidsAuto iOS for Device Model 10.x - 11.4.1
 MD5Sum:
- 2767b13f594d4fa773c77f7e0cd80cb4 8055 Packages
- 285ed0bde61c01364419545fa06f62ab 2459 Packages.bz2
- 4225838c5e69653945d414bbff05ddce 2183 Packages.gz
+ 3fb7442fddc276db2b25f78fcd023fa8 998 Packages
+ a54d3add095c387b7f985aa08e14c4e4 636 Packages.bz2
+ d978e38abcaaba2b75f408a1ef1ef66e 573 Packages.gz
